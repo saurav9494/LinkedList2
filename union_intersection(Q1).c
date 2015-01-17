@@ -86,6 +86,7 @@ void delete_duplicate(node *start)
             {
                 pt1->next=pt2->next;
             }
+            q=q->next;
         }
         pt1=pt1->next;
 
